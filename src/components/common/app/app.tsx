@@ -16,15 +16,8 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <h1>Counter: {counter}</h1>
-            <button
-                onClick={() => {
-                    console.log(counter);
-                    dispatch(increment());
-                }}
-            >
-                +
-            </button>
-            <button onClick={() => dispatch(decrement())}>+</button>
+            <button onClick={() => dispatch(increment())}>+</button>
+            <button onClick={() => dispatch(decrement())}>-</button>
         </div>
     );
 }
