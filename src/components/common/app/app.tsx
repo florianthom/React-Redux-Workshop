@@ -1,8 +1,5 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement } from '../../../actions';
 import './app.scss';
-import { RootState } from './../../../store';
 import { Switch, Route, NavLink, Redirect } from 'react-router-dom';
 import Home from '../../home/home';
 import Project from '../../project/project';
