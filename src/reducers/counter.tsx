@@ -1,18 +1,12 @@
 import * as constants from './../constants/actionTypes';
 import { Actions } from './../actions/index';
 
-export interface Counter {
-    counter: number;
+export interface CounterState {
+    Counter: number;
 }
 
-export type CounterState = {
-    Counter: Counter;
-};
-
 const initialState: CounterState = {
-    Counter: {
-        counter: 0,
-    },
+    Counter: 0,
 };
 
 export function counterReducer(state: CounterState = initialState, action: Actions): CounterState {
@@ -20,18 +14,12 @@ export function counterReducer(state: CounterState = initialState, action: Actio
         case constants.INCREMENT_COUNTER:
             return {
                 ...state,
-                Counter: {
-                    ...state.Counter,
-                    counter: state.Counter.counter + 1,
-                },
+                Counter: state.Counter + 1,
             };
         case constants.DECREMENT_COUNTER:
             return {
                 ...state,
-                Counter: {
-                    ...state.Counter,
-                    counter: state.Counter.counter - 1,
-                },
+                Counter: state.Counter - 1,
             };
         default:
             return state;

@@ -9,16 +9,17 @@ import { RootState } from './../../../store';
 //  https://www.youtube.com/watch?v=Z5iWr6Srsj8&ab_channel=BenAwad
 
 function App(): JSX.Element {
-    const counter: number = useSelector((state: RootState) => state.CounterState.Counter.counter);
-    const dispatch = useDispatch();
+    // const counter: number = useSelector((state: RootState) => state.CounterState.Counter);
+    // const dispatch = useDispatch();
+    //
+    // return (
+    //     <div className="App">
+    //         <h1>Counter: {counter}</h1>
+    //         <button onClick={() => dispatch(increment())}>+</button>
+    //     </div>
+    // );
 
-    return (
-        <div className="App">
-            <h1>Counter: {counter}</h1>
-            <button onClick={() => dispatch(increment())}>+</button>
-            <button onClick={() => dispatch(decrement())}>-</button>
-        </div>
-    );
+    return <div></div>;
 }
 
 export default App;

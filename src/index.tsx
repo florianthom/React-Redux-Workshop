@@ -7,16 +7,19 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { rootReducers } from './store';
+import { BrowserRouter } from 'react-router-dom';
 
 // create redux store
 export const store = createStore(rootReducers, composeWithDevTools());
 
 ReactDOM.render(
-    <div>
-        <Provider store={store}>
-            <App />
-        </Provider>
-    </div>,
+    <React.StrictMode>
+        <BrowserRouter>
+            <Provider store={store}>
+                <App></App>
+            </Provider>
+        </BrowserRouter>
+    </React.StrictMode>,
     document.getElementById('root'),
 );
 
