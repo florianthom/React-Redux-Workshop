@@ -1,8 +1,7 @@
 import React from 'react';
-import { useSelector, useDispatch, DefaultRootState } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { increment, decrement } from '../../../actions';
 import './app.scss';
-import { Counter, CounterState } from './../../../reducers/counter';
 import { RootState } from './../../../store';
 
 // typescript intros

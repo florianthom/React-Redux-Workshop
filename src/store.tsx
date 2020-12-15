@@ -1,6 +1,4 @@
-import { createStore } from 'redux';
-import { composeWithDevTools } from 'redux-devtools-extension';
-import { counterReducer, CounterState } from './reducers/counter';
+import { counterReducer } from './reducers/counter';
 import { combineReducers } from 'redux';
 
 export const rootReducers = combineReducers({
