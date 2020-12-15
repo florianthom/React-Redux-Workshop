@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/app/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
       <workItem from="1607954428489" duration="1048000" />
       <workItem from="1607955516746" duration="13622000" />
       <workItem from="1608040538408" duration="1267000" />
-      <workItem from="1608046383328" duration="19337000" />
+      <workItem from="1608046383328" duration="19432000" />
     </task>
     <servers />
   </component>

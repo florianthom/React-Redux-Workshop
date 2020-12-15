@@ -13,16 +13,6 @@ import ProjectList from '../../project/project-list';
 //  https://www.youtube.com/watch?v=Z5iWr6Srsj8&ab_channel=BenAwad
 
 function App(): JSX.Element {
-    // const counter: number = useSelector((state: RootState) => state.CounterState.Counter);
-    // const dispatch = useDispatch();
-    //
-    // return (
-    //     <div className="App">
-    //         <h1>Counter: {counter}</h1>
-    //         <button onClick={() => dispatch(increment())}>+</button>
-    //     </div>
-    // );
-
     return (
         <div className="App">
             <Switch>
