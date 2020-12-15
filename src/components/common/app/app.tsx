@@ -9,7 +9,7 @@ import { RootState } from './../../../store';
 //  https://www.youtube.com/watch?v=Z5iWr6Srsj8&ab_channel=BenAwad
 
 function App(): JSX.Element {
-    const counter: number = useSelector((state: RootState) => state.Counter.counter);
+    const counter: number = useSelector((state: RootState) => state.CounterState.Counter.counter);
     const dispatch = useDispatch();
 
     return (

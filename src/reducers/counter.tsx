@@ -5,10 +5,14 @@ export interface Counter {
     counter: number;
 }
 
-export type CounterState = Counter;
+export type CounterState = {
+    Counter: Counter;
+};
 
-const initialState: Counter = {
-    counter: 0,
+const initialState: CounterState = {
+    Counter: {
+        counter: 0,
+    },
 };
 
 export function counterReducer(state: CounterState = initialState, action: Actions): CounterState {
@@ -16,11 +20,18 @@ export function counterReducer(state: CounterState = initialState, action: Actio
         case constants.INCREMENT_COUNTER:
             return {
                 ...state,
-                counter: state.counter + 1,
+                Counter: {
+                    ...state.Counter,
+                    counter: state.Counter.counter + 1,
+                },
             };
         case constants.DECREMENT_COUNTER:
             return {
-                counter: state.counter - 1,
+                ...state,
+                Counter: {
+                    ...state.Counter,
+                    counter: state.Counter.counter - 1,
+                },
             };
         default:
             return state;
