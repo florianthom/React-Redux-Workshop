@@ -8,9 +8,11 @@ import { createStore } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { rootReducers } from './store';
 import { BrowserRouter } from 'react-router-dom';
+import { combineReducers, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
 
 // create redux store
-export const store = createStore(rootReducers, composeWithDevTools());
+export const store = createStore(rootReducers, composeWithDevTools(applyMiddleware(thunk)));
 
 ReactDOM.render(
     <React.StrictMode>
