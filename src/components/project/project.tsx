@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Project(): JSX.Element {
+const Project: React.FC = () => {
     return <div>Project</div>;
-}
+};
 
 export default Project;

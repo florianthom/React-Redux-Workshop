@@ -6,13 +6,17 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { rootReducers } from './store';
+import { rootReducers, RootState } from './store';
 import { BrowserRouter } from 'react-router-dom';
 import { combineReducers, applyMiddleware } from 'redux';
-import thunk from 'redux-thunk';
+import thunk, { ThunkMiddleware } from 'redux-thunk';
+import { Actions } from './actions';
 
 // create redux store
-export const store = createStore(rootReducers, composeWithDevTools(applyMiddleware(thunk)));
+export const store = createStore(
+    rootReducers,
+    composeWithDevTools(applyMiddleware(thunk as ThunkMiddleware<RootState, Actions>)),
+);
 
 ReactDOM.render(
     <React.StrictMode>

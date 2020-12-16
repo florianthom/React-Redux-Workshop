@@ -9,7 +9,7 @@ import ProjectList from '../../project/project-list';
 //  https://www.sitepoint.com/react-with-typescript-best-practices/
 //  https://www.youtube.com/watch?v=Z5iWr6Srsj8&ab_channel=BenAwad
 
-function App(): JSX.Element {
+const App: React.FC = () => {
     return (
         <div>
             <Switch>
@@ -20,6 +20,6 @@ function App(): JSX.Element {
             </Switch>
         </div>
     );
-}
+};
 
 export default App;
