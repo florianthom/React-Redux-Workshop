@@ -11,7 +11,7 @@ import ProjectList from '../../project/project-list';
 
 function App(): JSX.Element {
     return (
-        <div className="App">
+        <div>
             <Switch>
                 <Route path={'/'} exact component={Home} />
                 <Route path={'/project'} exact component={ProjectList} />
