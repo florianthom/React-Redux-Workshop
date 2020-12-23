@@ -1,4 +1,4 @@
-import * as constants from '../constants/actionTypes';
+import * as constants from '../actionTypes/actionTypes';
 import { Actions } from '../actions';
 
 export interface CounterState {
