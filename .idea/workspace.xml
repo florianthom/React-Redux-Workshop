@@ -3,18 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="711b9896-d7f7-4072-814f-ef56bdc99550" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/app/app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/header/nav-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/header/nav-bar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/project/project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/actionTypes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/constants/actionTypes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/counterReducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/projectReducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/counterReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/counterReducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/projectReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/projectReducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1leP8vN8ZW3M7jjhVSttEMps8F7" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -38,6 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BusinessModelDigitalHealth_Algorithm2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Florian\Desktop\github\homepage\src\store" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\components\common\app" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\components\common\header" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\assets\images" />
@@ -100,7 +101,9 @@
       <workItem from="1607954428489" duration="1048000" />
       <workItem from="1607955516746" duration="13622000" />
       <workItem from="1608040538408" duration="1267000" />
-      <workItem from="1608046383328" duration="30964000" />
+      <workItem from="1608046383328" duration="31018000" />
+      <workItem from="1608164388953" duration="336000" />
+      <workItem from="1608680601778" duration="2558000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,5 @@
-import * as constants from './../constants/actionTypes';
-import { Actions } from './../actions/index';
+import * as constants from '../constants/actionTypes';
+import { Actions } from '../actions';
 
 export interface CounterState {
     Counter: number;

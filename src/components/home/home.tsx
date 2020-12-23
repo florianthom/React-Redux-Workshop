@@ -1,10 +1,9 @@
-import React, { Dispatch } from 'react';
+import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '../../store';
-import { Actions, increment } from '../../actions';
+import { RootState } from '../../store/store';
+import { Actions, increment } from '../../store/actions';
 import Button from 'react-bootstrap/Button';
 import './home.scss';
-import { Action, ActionCreator } from 'redux';
 import { ThunkAction, ThunkDispatch } from 'redux-thunk';
 
 const Home: React.FC = () => {
@@ -26,6 +25,7 @@ const Home: React.FC = () => {
     // "Redux Thunk middleware allows you to write action creators that return a function instead of an action."
     // in onClick: () => dispatch(incrementAsync())
     function incrementAsync(): ThunkResult<void> {
+        // https://stackoverflow.com/questions/52977666/correct-typescript-type-for-thunk-dispatch
         return async (dispatch: ThunkDispatch<RootState, void, Actions>, getState: () => RootState) => {
             // const state = getState();
             // console.log(state.CounterState.Counter);

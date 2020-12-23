@@ -1,4 +1,4 @@
-import * as constants from './../constants/actionTypes';
+import * as constants from '../constants/actionTypes';
 
 interface IncrementCounter_Action {
     type: constants.INCREMENT_COUNTER;

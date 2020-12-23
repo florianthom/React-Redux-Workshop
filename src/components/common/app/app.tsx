@@ -1,6 +1,6 @@
 import React from 'react';
 import './app.scss';
-import { Switch, Route, NavLink, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import Home from '../../home/home';
 import Project from '../../project/project';
 import ProjectList from '../../project/project-list';
