@@ -4,19 +4,33 @@
     <list default="true" id="711b9896-d7f7-4072-814f-ef56bdc99550" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/app/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/app/app.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/header/nav-bar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/home.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/home.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/project/project-list.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/project/project.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/components/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/container/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/home/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/shared/components/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/shared/container/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/store/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/projectList/components/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/projectList/container/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/shared/components/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/shared/container/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/shared/components/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/shared/container/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/shared/header/nav-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/shared/navbar/navbar-component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,7 +49,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/domain/project" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript JSX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/domain/home/counter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,17 +66,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\project" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\counter" />
-      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\shared" />
-      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\components" />
-      <recent name="C:\Users\Florian\Desktop\github\homepage\src\app\home\container" />
+      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\store\reducers" />
+      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\store\actionTypes" />
+      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\store\actions" />
+      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\store" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\counter" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\shared" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\project\projectList" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src" />
-      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\counter" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\app" />
     </key>
   </component>
@@ -109,7 +124,7 @@
       <workItem from="1608046383328" duration="31018000" />
       <workItem from="1608164388953" duration="336000" />
       <workItem from="1608680601778" duration="6599000" />
-      <workItem from="1608689484521" duration="2668000" />
+      <workItem from="1608689484521" duration="8290000" />
     </task>
     <servers />
   </component>
