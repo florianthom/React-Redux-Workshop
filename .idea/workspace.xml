@@ -2,23 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711b9896-d7f7-4072-814f-ef56bdc99550" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/domain/home/counter/counter.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/components/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/container/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/counter-component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/counter-component_backup.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/counter-container.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/hooks/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/models/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/services/.gitkeep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/domain/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/home/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/home/shared/components/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/home/shared/container/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/home/store/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/project/projectList/components/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/project/projectList/container/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/project/shared/components/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/project/shared/container/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/shared/components/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/shared/container/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/shared/header/nav-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/shared/navbar/navbar-component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/store/actionTypes/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/store/actions/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/store/reducers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actionTypes/actionTypes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actionTypes/actionTypes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/counterReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/home/store/reducers/counterReducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/projectReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +75,11 @@
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\store" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\store\reducers" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\counter" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\shared" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\project\projectList" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src" />
-      <recent name="C:\Users\Florian\Desktop\github\homepage\src\app" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -124,7 +126,8 @@
       <workItem from="1608046383328" duration="31018000" />
       <workItem from="1608164388953" duration="336000" />
       <workItem from="1608680601778" duration="6599000" />
-      <workItem from="1608689484521" duration="8290000" />
+      <workItem from="1608689484521" duration="8376000" />
+      <workItem from="1608727543038" duration="3440000" />
     </task>
     <servers />
   </component>
