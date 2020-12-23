@@ -1,9 +1,9 @@
 import React from 'react';
 import './app.scss';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Home from '../../home/home';
-import Project from '../../project/project';
-import ProjectList from '../../project/project-list';
+import Home from './domain/home/home';
+import Project from './domain/project/project';
+import ProjectList from './domain/project/project-list';
 
 // typescript intros
 //  https://www.sitepoint.com/react-with-typescript-best-practices/
