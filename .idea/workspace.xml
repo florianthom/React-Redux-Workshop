@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711b9896-d7f7-4072-814f-ef56bdc99550" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/domain/shared/navbar/customNavbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/shared/navbar/navbar-component.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/shared/navbar/navbar-container.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/shared/navbar/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/shared/navbar/customNavbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/shared/navbar/customNavbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/shared/navbar/customNavbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/shared/navbar/customNavbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/shared/navbar/customNavbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <workItem from="1608164388953" duration="336000" />
       <workItem from="1608680601778" duration="6599000" />
       <workItem from="1608689484521" duration="8376000" />
-      <workItem from="1608727543038" duration="5159000" />
+      <workItem from="1608727543038" duration="7587000" />
     </task>
     <servers />
   </component>
