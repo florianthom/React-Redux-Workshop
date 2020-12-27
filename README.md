@@ -10,7 +10,7 @@ Frontend-Project for Mobile-App in the area of Public Health. The Backend-Projec
 
 ## Getting Started
 
-```$ git clone git@github.com:FlorianTh2/BusinessModelDigitalHealth.git```
+```$ git@github.com:FlorianTh2/React-Counter.git```
 
 
 
