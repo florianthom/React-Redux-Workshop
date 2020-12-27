@@ -1,6 +1,6 @@
 import * as constants from '../actionTypes/actionTypes';
 import { ThunkAction } from 'redux-thunk';
-import { RootState } from '../../../../store/store';
+import { RootState } from '../../../store/store';
 
 interface IncrementCounter_Action {
     type: constants.INCREMENT_COUNTER;

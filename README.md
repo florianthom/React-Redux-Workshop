@@ -1,4 +1,4 @@
-# MobileAppPublicHealthFrontend
+# React - Counter
 
 [![CI/CD](https://github.com/florianth2/homepage/workflows/Node.js%20CI/badge.svg)]() [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -6,10 +6,13 @@ Frontend-Project for Mobile-App in the area of Public Health. The Backend-Projec
 
 
 ## Prerequisites
---
+- Node v12+
 
 ## Getting Started
---
+
+```$ git clone git@github.com:FlorianTh2/BusinessModelDigitalHealth.git```
+
+
 
 ## Important commands
 --

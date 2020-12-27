@@ -1,4 +1,4 @@
-import { counterReducer } from '../domain/home/store/reducers/counterReducer';
+import { counterReducer } from '../home/store/reducers/counterReducer';
 import { combineReducers } from 'redux';
 
 // https://stackoverflow.com/questions/40874141/redux-relation-of-reducers-to-actions

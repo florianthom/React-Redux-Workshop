@@ -2,10 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711b9896-d7f7-4072-814f-ef56bdc99550" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/store/actions/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/shared/navbar/customNavbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/shared/navbar/customNavbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/shared/navbar/customNavbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/shared/navbar/customNavbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/counter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/counter/counter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/counter/counter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/hooks/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/counter/hooks/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/counter/models/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/counter/models/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/shared/hooks/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/shared/hooks/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/shared/models/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/shared/models/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/shared/services/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/shared/services/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/store/actionTypes/actionTypes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/store/actionTypes/actionTypes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/store/actions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/store/actions/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/home/store/reducers/counterReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/store/reducers/counterReducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/project-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/project-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/projectList/projectList-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/projectList/projectList-component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/projectList/projectList-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/projectList/projectList-container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/projectList/projectList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/projectList/projectList.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/shared/hooks/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/shared/hooks/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/shared/models/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/shared/models/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/shared/services/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/shared/services/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/project/store/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/store/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/shared/models/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/models/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/shared/navbar/customNavbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/navbar/customNavbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/shared/navbar/customNavbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/navbar/customNavbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/shared/navbar/hooks/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/navbar/hooks/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/shared/navbar/services/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/navbar/services/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/shared/store/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/store/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actionTypes/actionTypes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/actionTypes/actionTypes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/reducers/reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/store.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript JSX" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/domain/shared/navbar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,18 +87,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Florian\Desktop\github\homepage\src\app" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\shared\navbar" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\counter" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\store\reducers" />
-      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\store\actionTypes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Florian\Desktop\github\homepage\src\app" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\store\reducers" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\counter" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\shared" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\project\projectList" />
-      <recent name="C:\Users\Florian\Desktop\github\homepage\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -112,7 +146,8 @@
       <workItem from="1608164388953" duration="336000" />
       <workItem from="1608680601778" duration="6599000" />
       <workItem from="1608689484521" duration="8376000" />
-      <workItem from="1608727543038" duration="7587000" />
+      <workItem from="1608727543038" duration="7668000" />
+      <workItem from="1609104595257" duration="1169000" />
     </task>
     <servers />
   </component>

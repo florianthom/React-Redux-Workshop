@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app';
+import App from './app/app';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { rootReducers, RootState } from './store/store';
+import { rootReducers, RootState } from './app/store/store';
 import { BrowserRouter } from 'react-router-dom';
 import { applyMiddleware } from 'redux';
 import thunk, { ThunkMiddleware } from 'redux-thunk';
-import { Actions } from './store/actions';
+import { Actions } from './app/store/actions';
 
 // create redux store
 // 1. paramter = reducers
