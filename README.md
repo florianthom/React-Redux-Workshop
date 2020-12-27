@@ -1,9 +1,6 @@
 # React - Counter
 
-[![CI/CD](https://github.com/florianth2/homepage/workflows/Node.js%20CI/badge.svg)]() [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
-Frontend-Project for Mobile-App in the area of Public Health. The Backend-Project can be found [here].
-
+Frontend-Project to present a proper base structure for a CRA-App with Redux.
 
 ## Prerequisites
 - Node v12+
@@ -12,19 +9,33 @@ Frontend-Project for Mobile-App in the area of Public Health. The Backend-Projec
 
 ```$ git@github.com:FlorianTh2/React-Counter.git```
 
+```$ cd ./React-Counter```
+
+```$ npm install```
+
+```$ npm run start```
 
 
 ## Important commands
---
+
+```$ npm run lint```
 
 ## TL;DR
+
 --
 
 ## Build with
---
+
+- React v17
+- TypeScript
+- Redux
+- Redux-Thunk
+- ESLint / Prettier
+- Bootstrap v4
 
 ## Acknowledgements
---
 
+- Thanks to Ben Award [Ben Award] for amazing tutorials regarding react like for example [this] one.
 
-[here]: <https://github.com/FlorianTh2/MobileAppPublicHealthFrontend>
+[Ben Award]: <https://www.youtube.com/user/99baddawg>
+[this]: <https://www.youtube.com/watch?v=Z5iWr6Srsj8&ab_channel=BenAwad>
