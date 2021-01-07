@@ -1,5 +1,4 @@
 import * as constants from '../actions';
-import { Action, Dispatch } from 'redux';
 import { ThunkAction, ThunkDispatch } from 'redux-thunk';
 import { RootState } from '../../../store/store';
 import { CounterActionTypes } from '../actionTypes';
