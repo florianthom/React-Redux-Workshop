@@ -13,15 +13,23 @@ const Counter: React.FC<Props> = (props: Props) => {
     const state: CounterState = useSelector((state: RootState) => state.CounterState);
     const dispatch = useDispatch();
 
+    function handleIncrementCounter(): void {
+        dispatch(incrementConterActionCreatorAsync());
+    }
+
+    function handleDecrementCounter(): void {
+        dispatch(decrementConterActionCreator());
+    }
+
     return (
         <div className="counter">
             <h1>Counter: {state.Counter}</h1>
             <span>
                 {/* for testing purposes one button without thunk and one with thunk*/}
-                <Button className="m-5" onClick={() => dispatch(incrementConterActionCreatorAsync())}>
+                <Button className="m-5" onClick={handleIncrementCounter}>
                     +
                 </Button>
-                <Button className="m-5" onClick={() => dispatch(decrementConterActionCreator())}>
+                <Button className="m-5" onClick={handleDecrementCounter}>
                     -
                 </Button>
             </span>
