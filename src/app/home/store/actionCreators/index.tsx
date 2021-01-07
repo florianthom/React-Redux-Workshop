@@ -1,5 +1,6 @@
 import * as constants from '../actions';
-import { ThunkAction } from 'redux-thunk';
+import { Action, Dispatch } from 'redux';
+import { ThunkAction, ThunkDispatch } from 'redux-thunk';
 import { RootState } from '../../../store/store';
 import { CounterActionTypes } from '../actionTypes';
 
@@ -28,7 +29,11 @@ export function decrementConterActionCreator(): CounterActionTypes {
     };
 }
 
-type ThunkResult<R> = ThunkAction<R, RootState, undefined, CounterActionTypes>;
+// type ThunkResult<R> = ThunkAction<R, RootState, undefined, CounterActionTypes>;
+
+type AppThunkAction = ThunkAction<Promise<any>, RootState, unknown, CounterActionTypes>;
+
+type AppThunkDispatch = ThunkDispatch<RootState, null, CounterActionTypes>;
 
 // redux-Thunk action-creator
 // so it returns no action (aka single object) but a function which returns this action (object)
@@ -39,9 +44,9 @@ type ThunkResult<R> = ThunkAction<R, RootState, undefined, CounterActionTypes>;
 //  - = example without thunk:  handleIncrementClick: () => dispatch({ type: 'INCREMENT' })
 //  -   example with thunk:     handleIncrementClick: () => dispatch(innerDispatch => innerDispatch({ type: 'INCREMENT' }))
 //      - main-difference: dispatch does not get/return a plain object but a function
-export function incrementConterActionCreatorAsync(): ThunkResult<void> {
+export function incrementConterActionCreatorAsync(): AppThunkAction {
     // https://stackoverflow.com/questions/52977666/correct-typescript-type-for-thunk-dispatch
-    return async (dispatch, getState) => {
+    return async (dispatch: AppThunkDispatch, getState) => {
         // const state = getState();
         // console.log(state.CounterState.Counter);
         // example async call: axios.get(`https://reqres.in/api/users`)
@@ -54,8 +59,8 @@ export function incrementConterActionCreatorAsync(): ThunkResult<void> {
     };
 }
 
-export function decrementConterActionCreatorAsync(): ThunkResult<void> {
-    return async (dispatch, getState) => {
+export function decrementConterActionCreatorAsync(): AppThunkAction {
+    return async (dispatch: AppThunkDispatch, getState) => {
         setTimeout(() => {
             dispatch(decrementConterActionCreator());
         }, 0);

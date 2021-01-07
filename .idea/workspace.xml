@@ -4,6 +4,7 @@
     <list default="true" id="711b9896-d7f7-4072-814f-ef56bdc99550" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/home/counter/counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/counter/counter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/store/actionCreators/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/store/actionCreators/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,7 @@
       <workItem from="1609104595257" duration="2489000" />
       <workItem from="1610028664935" duration="195000" />
       <workItem from="1610028879766" duration="2778000" />
-      <workItem from="1610032041904" duration="439000" />
+      <workItem from="1610032041904" duration="3289000" />
     </task>
     <servers />
   </component>
