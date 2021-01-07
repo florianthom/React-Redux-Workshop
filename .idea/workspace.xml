@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711b9896-d7f7-4072-814f-ef56bdc99550" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/home/store/actionTypes/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/store/actionTypes/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/counter/counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/counter/counter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/store/actionTypes/actionTypes.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/store/actions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/store/actions/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/store/reducers/counterReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/store/reducers/counterReducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/project/project-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/project-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/project/project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/project/projectList/projectList-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/projectList/projectList-component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/project/projectList/projectList-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/projectList/projectList-container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/navbar/customNavbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/navbar/customNavbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/actionTypes/actionTypes.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/actions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/actions/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/reducers/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/reducers/reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/store.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript JSX" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,9 +63,9 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Florian\Desktop\github\homepage\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
-    <property name="ts.external.directory.path" value="C:\Users\Florian\Desktop\github\homepage\node_modules\typescript\lib" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Florian\Desktop\github\React-Counter\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Users\Florian\Desktop\github\React-Counter\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -58,11 +77,11 @@
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\store\reducers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Florian\Desktop\github\React-Counter\src\app\store\actionTypes" />
+      <recent name="C:\Users\Florian\Desktop\github\React-Counter\src\app\store\actions" />
+      <recent name="C:\Users\Florian\Desktop\github\React-Counter\src\app\home\store\actionTypes" />
+      <recent name="C:\Users\Florian\Desktop\github\React-Counter\src\app\home\store\actions" />
       <recent name="C:\Users\Florian\Desktop\github\homepage\src\app" />
-      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\store\reducers" />
-      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\counter" />
-      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\home\shared" />
-      <recent name="C:\Users\Florian\Desktop\github\homepage\src\domain\project\projectList" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -112,6 +131,8 @@
       <workItem from="1608689484521" duration="8376000" />
       <workItem from="1608727543038" duration="7668000" />
       <workItem from="1609104595257" duration="2489000" />
+      <workItem from="1610028664935" duration="195000" />
+      <workItem from="1610028879766" duration="2778000" />
     </task>
     <servers />
   </component>

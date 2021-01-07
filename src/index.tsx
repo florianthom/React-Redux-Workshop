@@ -9,7 +9,7 @@ import { rootReducers, RootState } from './app/store/store';
 import { BrowserRouter } from 'react-router-dom';
 import { applyMiddleware } from 'redux';
 import thunk, { ThunkMiddleware } from 'redux-thunk';
-import { Actions } from './app/store/actions';
+import { ActionTypes } from './app/store/actionTypes';
 
 // create redux store
 // 1. paramter = reducers
@@ -20,7 +20,7 @@ import { Actions } from './app/store/actions';
 //      - all function inside applyMiddleware-enhancer are middleware-function
 export const store = createStore(
     rootReducers,
-    composeWithDevTools(applyMiddleware(thunk as ThunkMiddleware<RootState, Actions>)),
+    composeWithDevTools(applyMiddleware(thunk as ThunkMiddleware<RootState, ActionTypes>)),
 );
 
 ReactDOM.render(

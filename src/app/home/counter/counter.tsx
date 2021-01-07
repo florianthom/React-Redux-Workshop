@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import './counter.scss';
 import { ThunkAction, ThunkDispatch } from 'redux-thunk';
 import { CounterState } from '../store/reducers/counterReducer';
-import { incrementAsync } from '../store/actions';
+import { decrementConterActionCreator, incrementConterActionCreatorAsync } from '../store/actionCreators';
 
 export interface Props {}
 
@@ -16,7 +16,15 @@ const Counter: React.FC<Props> = (props: Props) => {
     return (
         <div className="counter">
             <h1>Counter: {state.Counter}</h1>
-            <Button onClick={() => dispatch(incrementAsync())}>+</Button>
+            <span>
+                {/* for testing purposes one button without thunk and one with thunk*/}
+                <Button className="m-5" onClick={() => dispatch(incrementConterActionCreatorAsync())}>
+                    +
+                </Button>
+                <Button className="m-5" onClick={() => dispatch(decrementConterActionCreator())}>
+                    -
+                </Button>
+            </span>
         </div>
     );
 };
