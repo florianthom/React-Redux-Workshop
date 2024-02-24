@@ -1,17 +1,17 @@
-# React - Counter
+# React-Redux-Workshop
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Frontend-Project to present a proper base structure for a CRA-App with Redux.
+Workshop to present a proper base structure for a CRA-App with Redux.
 
 ## Prerequisites
 - Node v12+
 
 ## Getting Started
 
-```$ git@github.com:FlorianTh2/React-Counter.git```
+```$ git@github.com:florianthom/React-Redux-Workshop.git```
 
-```$ cd ./React-Counter```
+```$ cd ./React-Redux-Workshop```
 
 ```$ npm install```
 
